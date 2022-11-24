@@ -14,3 +14,6 @@ exports.seed = async function(knex) {
     { user_id: 1, music_id: 3, date: "20210415", place: "ANJO", comment: "Good" },
   ]);
 };
+
+
+
