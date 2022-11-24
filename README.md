@@ -21,15 +21,12 @@
 ### 初期設定
   1. PostgreSQLで *music_diary* のDBを作成してください
   <br>
-  
   2. `npm install`
   <br>
   必要なパッケージをインストールします
-
   3. `npm run build`
   <br>
   　music_diaryDBに必要なテーブルと初期データを挿入します
-
   4. `npm run start`
   <br>
   サーバーを立ち上げてmusic_diaryが起動します
