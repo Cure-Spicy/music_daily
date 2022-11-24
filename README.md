@@ -17,7 +17,7 @@
   * 今後ユーザー追加機能を実装予定
 
 
-##　使用方法
+## 使用方法
 ### 初期設定
   1. PostgreSQLで *music_diary* のDBを作成してください
   2. `npm install`<br>
