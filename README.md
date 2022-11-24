@@ -7,24 +7,28 @@
 
 ## 機能
 * spotifyから楽曲情報を取得機能
-  * spotifyログイン後Artist名を入力するとspotfyから楽曲情報を取得できます
+  1. spotifyログイン
+  2. Artist名 or Titleを入力
+  3. 主キーTempoなどの楽曲情報自動取得
 * ダイアリー機能
   * 楽曲情報と、演奏日、演奏場所、日記を紐づけて管理
 * 作成したリストから検索が可能
 * ユーザーの切り替え
   * 今後ユーザー追加機能を実装予定
 
-## 使用方法
-### 初期設定
-  PostgreSQLで *music_diary* のDBを作成してください
-  `npm install`
-  <br>
-    必要なパッケージをインストールします
 
-  `npm run build`
+##　 使用方法
+### 初期設定
+  1. PostgreSQLで *music_diary* のDBを作成してください
+  <br>
+  2. `npm install`
+  <br>
+  必要なパッケージをインストールします
+
+  3. `npm run build`
   <br>
   　music_diaryDBに必要なテーブルと初期データを挿入します
 
-  `npm run start`
+  4. `npm run start`
   <br>
   サーバーを立ち上げてmusic_diaryが起動します
